@@ -1,0 +1,5 @@
+print('===Exercicio 27===')
+nome = str(input('Digite o nome completo: ')).strip()
+div = nome.split()
+print('Seu primeiro nome e {}'.format(div[0]))
+print('Seu ultimo nome e {}'.format(div[len(div)-1]))
